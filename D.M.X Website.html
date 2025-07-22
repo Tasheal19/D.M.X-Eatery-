@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D.M.X Eatery</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fffaf4;
+      color: #333;
+    }
+
+    /* Logo */
+    .logo {
+      text-align: center;
+      padding: 1rem 0 0.5rem;
+      background: #fffaf4;
+    }
+
+    .logo img {
+      height: 80px;
+      max-width: 90%;
+      object-fit: contain;
+    }
+
+    /* Navbar */
+    nav {
+      background: #b71c1c;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd54f;
+    }
+
+    header {
+      background: #d32f2f;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .main, .specials {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .main h2, .specials h2 {
+      font-size: 2rem;
+      color: #b71c1c;
+    }
+
+    .main p, .specials p {
+      max-width: 750px;
+      margin: 1rem auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .cta {
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      background: #f57c00;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #ef6c00;
+    }
+
+    .contact-number {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    .contact-number a {
+      color: #d32f2f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .special-box {
+      background: #fff3e0;
+      padding: 1.5rem;
+      margin: 2rem auto;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .special-box h3 {
+      color: #d84315;
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .special-box ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.05rem;
+      margin-top: 1rem;
+      text-align: left;
+    }
+
+    .special-box ul li {
+      margin-bottom: 0.7rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #ffd54f;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .main h2, .specials h2 {
+        font-size: 1.6rem;
+      }
+
+      .cta a {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo Section -->
+  <div class="logo">
+    <img src="C:\Users\tash3\Downloads\IMG_7897.jpeg" alt="D.M.X Eatery Logo" />
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#specials">Our Specials</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>🎉 D.M.X Eatery is Now Open!</h1>
+    <p>Where flavor meets passion</p>
+  </header>
+
+  <!-- Main Section -->
+  <section class="main">
+    <h2>Welcome to D.M.X Eatery</h2>
+    <p>
+      From indulgent cakes to soul-warming authentic Indian cuisine, we’re here to feed your cravings.
+      Our menu is crafted with love and packed with bold, unforgettable flavors.
+    </p>
+
+    <p>
+      Your next bite is better with <strong>D.M.X.</strong> 🍰🔥
+    </p>
+
+    <div class="cta">
+      <a href="https://www.facebook.com/share/1YyyFLHxzm/" target="_blank">
+        👉 Follow us on Facebook
+      </a>
+    </div>
+
+    <p class="contact-number">
+      📞 <a href="https://wa.me/27729510891" target="_blank">Chat with us on WhatsApp: 072 951 0891</a>
+    </p>
+  </section>
+
+  <!-- Specials Section -->
+  <section class="specials" id="specials">
+    <h2>🔥 Weekly Specials</h2>
+
+    <div class="special-box">
+      <h3>🌞 Good Morning from D.M.X Eatery!</h3>
+      <p>
+        This week’s opening special is a flavour-packed <strong>Chicken Breyani</strong> — rich, aromatic, and served with comforting dhall and a fresh carrot salad.
+      </p>
+      <p><strong>🔥 Don’t just crave it—claim it!</strong></p>
+
+      <ul>
+        <li>🍽️ <strong>Single Portion</strong>: <em>R80</em> — <small>served with salad</small></li>
+        <li>👨‍👩‍👧‍👦 <strong>Family Portion (Serves 4)</strong>: <em>R280</em> — <small>served with salad</small></li>
+        <li>🥣 <strong>Dhall</strong>: <em>R20</em> per tub (sold separately)</li>
+      </ul>
+
+      <p>
+        📅 <strong>Order by:</strong> <em>16th July</em><br>
+        🚚 <strong>Delivery/Collection:</strong> <em>19th July</em><br>
+        🛵 Delivery at separate charge depending on your area<br>
+        💳 <strong>Payment secures your order</strong>
+      </p>
+
+      <p><em>💥 This is a flavor fest you won’t want to miss!</em><br>
+      <strong>*Prices valid for this week only*</strong></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 D.M.X Eatery. All rights reserved. |
+    <a href="https://wa.me/27729510891" target="_blank">WhatsApp: 072 951 0891</a>
+  </footer>
+
+</body>
+</html>
